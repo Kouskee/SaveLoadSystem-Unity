@@ -7,7 +7,7 @@ public class JsonSaveSystem : ISaveSystem
     
     public JsonSaveSystem()
     {
-        _filePath = Application.persistentDataPath + "/Save.json";
+        _filePath = Application.persistentDataPath + "/Save.json"; // System.Environment.GetFolderPath(SpecialFolder.ApplicationData);
     }
     
     public void Save(SaveData data)
