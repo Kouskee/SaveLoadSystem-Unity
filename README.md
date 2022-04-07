@@ -1,5 +1,5 @@
 # SaveLoadSystem-Unity
-To Save - you need to initialize ```c# 
+To Save - you need to initialize ```cs 
 ISaveSystem _saveSys = new JsonSaveSystem();```
 Call _saveSys.Save(SaveData _myData);
 
